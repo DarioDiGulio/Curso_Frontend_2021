@@ -1,0 +1,33 @@
+/* Tag(p), Class(.text-blue), ID(#text-brown) */
+/* Selectores de atributo */
+input[type] {
+  color: chocolate;
+  font-size: xx-large;
+}
+
+input[type="number"] {
+  font-weight: bold;
+}
+
+/* Selectores de herencia */
+
+.container p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 20px;
+    background-color: steelblue;
+    color: white;
+}
+
+.container > p {
+    border: 5px solid rebeccapurple;
+    text-align: justify;
+    line-height: 30px;
+    font-style: italic;
+    text-indent: 10px;
+}
+
+.child > p {
+    text-align: center;
+    text-transform: uppercase;
+    word-spacing: 15px;
+}

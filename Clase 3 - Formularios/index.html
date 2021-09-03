@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formularios</title>
+  </head>
+  <body>
+    <form action="login.php" method="GET">
+      <label for="anyText">Nombre</label>
+      <input type="text" name="nombre" id="anyText" required />
+      <label for="anyNumber">Celular</label>
+      <input type="number" name="phone" id="anyNumber" max="100" />
+      <input type="email" name="" id="" required />
+      <input type="date" name="" id="" />
+      <input type="time" name="" id="" readonly />
+      <input type="password" name="" id="" minlength="6" maxlength="8" />
+      <input type="file" name="" id="" />
+      <input
+        type="range"
+        name=""
+        id=""
+        min="50"
+        max="300"
+        step="50"
+        value="300"
+      />
+      <p>Colores Favoritos</p>
+      <div>
+        <label for="red">Red</label>
+        <input type="checkbox" name="colours" id="red" checked />
+        <label for="blue">Blue</label>
+        <input type="checkbox" name="colours" id="blue" />
+        <label for="yellow">Yellow</label>
+        <input type="checkbox" name="colours" id="yellow" />
+      </div>
+      <p>Nacionalidad</p>
+      <div>
+        <label for="arg">Argentina</label>
+        <input type="radio" name="nacionalidad" id="arg" />
+        <label for="per">Peruana</label>
+        <input type="radio" name="nacionalidad" id="per" />
+        <label for="chi">Chilena</label>
+        <input type="radio" name="nacionalidad" id="chi" />
+      </div>
+
+      <label for="nacionalidad">Nacionalidad</label>
+      <select name="nacionalidad" id="nacionalidad">
+        <option>Argentina</option>
+        <option>Peruana</option>
+        <option>Chilena</option>
+      </select>
+      <div>
+        <button type="submit">Enviar</button>
+        <button type="reset">Limpiar</button>
+      </div>
+    </form>
+  </body>
+</html>

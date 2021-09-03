@@ -1,0 +1,17 @@
+/* Selector de etiqueta */
+
+p {
+  color: red;
+}
+
+/* Selector de clase */
+
+.text-blue {
+  color: blue;
+}
+
+/* Selector de ID */
+
+#text-brown {
+  color: brown;
+}
