@@ -1,0 +1,50 @@
+.italic {
+    font-style: italic;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.blue {
+    color: blue
+}
+
+#parrafo1 {
+    margin: 0 10vw;
+}
+
+#parrafo2 {
+    background-color: yellow;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#parrafo3 {
+    background-color: turquoise;
+    text-transform: capitalize;
+    text-decoration: underline red;
+    word-spacing: 10px;
+}
+
+#parrafo4 {
+    background-color: rgb(86, 185, 86);
+    color: yellow;
+    font-size: 20px;
+    border: 2px solid darkgreen;
+}
+
+#parrafo5 {
+    color: red;
+    line-height: 50px;
+    text-decoration: underline dotted brown;
+}
+
+#parrafo6 {
+    background-color: rgb(211, 167, 247);
+    color: white;
+    line-height: 20px;
+    letter-spacing: 8px;
+    word-spacing: 10px;
+
+}
