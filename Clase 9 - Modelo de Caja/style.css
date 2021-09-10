@@ -1,0 +1,43 @@
+div {
+    height: 200px;
+    background-color: rgb(165, 164, 165);
+}
+
+.element {
+  width: 12%;
+}
+
+#first {
+  border: 5px solid lightcoral;
+}
+
+#second {
+  margin: 10px 20px 5px;
+  padding: 10px;
+}
+
+p {
+  box-sizing: content-box;
+  width: 100%;
+  background-color: lightgreen;
+  border: 10px solid red;
+}
+
+#p-first {
+    box-sizing: border-box;
+}
+
+#tercero {
+    width: 50vw;
+}
+
+#tercero-child {
+    width: 50%;
+    background-color: lightgreen;
+}
+
+@media screen and (max-width: 1000px) {
+    div {
+        background-color: lightsalmon;
+    }
+}
